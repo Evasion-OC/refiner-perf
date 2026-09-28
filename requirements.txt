@@ -1,0 +1,3 @@
+# torch's CUDA wheel bundles a matching triton on Linux; scipy only for eigsh checks
+torch>=2.4
+scipy

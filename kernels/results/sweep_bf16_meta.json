@@ -1,0 +1,13 @@
+{
+  "device": "NVIDIA A100-PCIE-40GB",
+  "torch": "2.13.0+cu130",
+  "triton": true,
+  "dtype": "bfloat16",
+  "d": 16,
+  "c": 128,
+  "m": 8,
+  "warmup": 10,
+  "iters": 100,
+  "tf32_matmul": false,
+  "tf32_cudnn": true
+}
